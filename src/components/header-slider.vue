@@ -1,11 +1,8 @@
 <template>
   <swiper class="swiper" :options="swiperOption">
-    <swiper-slide><img class="swiper-slide-image" src="images/img_1.jpg"></swiper-slide>
-    <swiper-slide><img class="swiper-slide-image" src="images/img_2.jpg"></swiper-slide>
-    <swiper-slide><img class="swiper-slide-image" src="images/img_3.jpg"></swiper-slide>
-    <swiper-slide><img class="swiper-slide-image" src="images/slide_1.jpg"></swiper-slide>
-    <swiper-slide><img class="swiper-slide-image" src="images/slide_2.jpg"></swiper-slide>
-    <swiper-slide><img class="swiper-slide-image" src="images/slide_3.jpg"></swiper-slide>
+    <swiper-slide><a href="#"><img class="swiper-slide-image" src="images/slide_1.jpg"></a></swiper-slide>
+    <swiper-slide><a href="#"><img class="swiper-slide-image" src="images/slide_2.jpg"></a></swiper-slide>
+    <swiper-slide><a href="#"><img class="swiper-slide-image" src="images/slide_3.jpg"></a></swiper-slide>
     <div class="swiper-pagination swiper-pagination-bullets" slot="pagination"></div>
     <div class="swiper-button-prev" slot="button-prev"></div>
     <div class="swiper-button-next" slot="button-next"></div>
